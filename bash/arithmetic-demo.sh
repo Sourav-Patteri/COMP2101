@@ -27,17 +27,17 @@ EOF
 
 
 #TASK 1:
-echo ""
+echo "############################################"
 Prompt="Please Enter Three Numbers: "
-read -p "$Prompt" one two three
-echo "You entered $one, $two, $three"
+read -p "$Prompt" numone numtwo numthree
+echo "You entered $numone, $numtwo, $numthree"
 
 #Task 2:
-sum=$(($one + $two + $three))
-product=$(($one * $two * $three))
-echo ""
-echo "The Sum of $one, $two, $three is : $sum"
-echo "The Product of $one, $two, $three is : $product"
-echo ""
+sum=$(($numone + $numtwo + $numthree))
+product=$(($numone * $numtwo * $numthree))
+echo "##############################################"
+echo "The Sum of $numone, $numtwo, $numthree is : $sum"
+echo "The Product of $numone, $numtwo, $numthree is : $product"
+echo "##############################################"
 
 
