@@ -12,7 +12,7 @@ while [ $# -gt 0 ]; do
   # tell the user what we did
   echo "Added \'$1\' to the arguments array"
 
-# TASK 1: instead of just adding arguments to an array, use a case statement to recognize some options
+##TASK 1: instead of just adding arguments to an array, use a case statement to recognize some options
 #          Options to recognize: -h for help, -v for verbose mode, -d N for debug mode with N being a single digit number
 #          If the help option is recognized, print out help for the command and exit
 #          If the verbose option is recognized, set a variable to indicate verbose mode is on
@@ -26,7 +26,6 @@ while [ $# -gt 0 ]; do
   # tell the user we shifted things
   echo "Shifted command line, leaving $# things left to process."
   echo "--------------------------"
-  # go back to the top of the loop to see if anything is left to work on
 done
 echo "Done"
 
